@@ -35,16 +35,16 @@ previous_reply_pairs = [
 
 Generate a reply:
 
-reply = generate_reply("What if ads paid you?", previous_reply_pairs)
+reply = generate_reply("Tweet: $BOSS @bossonbonk trading is now LIVE on #BitgetSpot. 🚀 Trade now: https://t.co/kqcZtl8svU https://t.co/xeHGEVKl1i", previous_reply_pairs)
 print(reply)
 
 Example Usage
 $ python twitter_bot_prototypes.py
 Paste the post you want to reply to:
-JUST RECEIVED VERY BULLISH NEWS
+Tweet: $BOSS @bossonbonk trading is now LIVE on #BitgetSpot. 🚀 Trade now: https://t.co/kqcZtl8svU
 
 Generated Reply:
-"Drop the alpha lil bro"
+"Strap in, folks. We're going interstellar 🚀"
 
 Dependencies
 
@@ -60,7 +60,7 @@ Limitations
 
 Consistency of style: The model sometimes struggles to maintain a stable “voice.” Replies can vary widely between very good, mediocre, or off-tone, and full control of style was difficult to achieve.
 
-Training accuracy: While the model successfully learned from provided examples and generated context-aware replies, it did not always match the exact style or quality we aimed for. Perfect fine-tuning on reply tone was not fully achieved.
+Training accuracy: While the model successfully learned from provided examples and generated context-aware replies, it did not always match the exact style or quality I aimed for. Perfect fine-tuning on reply tone was not fully achieved.
 
 Automation limits: Free-tier X (Twitter) API restrictions only allowed posting one reply every 15 minutes, limiting large-scale testing and real-time engagement.
 
